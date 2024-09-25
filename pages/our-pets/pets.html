@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../../assets/favicon/icon.png" type="image/x-icon">
+	<link rel="icon" href="../../assets/favicon/icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="../../pets-cards_styles.css">
+	<title>Shelter</title>
+</head>
+<body>
+<div class="full-width-background">
+	<div class="container">
+		<header>
+			<nav class="nav">
+				<a class="logo-link" href="../../index.html">
+					<div class="logo">
+						<h1 class="logo-content">Cozy House</h1>
+						<p class="logo-title">Shelter for pets in Boston</p>
+					</div>
+				</a>
+				<button class="burger-menu" aria-label="Toggle navigation">
+					<span class="burger-menu__line"></span>
+					<span class="burger-menu__line"></span>
+					<span class="burger-menu__line"></span>
+				</button>
+				<div class="nav-items nav-list">
+					<p class="nav-item"><a class="nav-item_link--active " href="../../index.html">About the shelter</a>
+					</p>
+					<p class="nav-item active"><a class="nav-item_link nav-item_link--active not-active" href="#">Our pets</a></p>
+					<p class="nav-item"><a class="nav-item_link--active" href="../../index.html#help">Help the shelter</a></p>
+					<p class="nav-item"><a class="nav-item_link--active" href="#footer">Contacts</a></p>
+				</div>
+				<div class="overlay"></div>
+			</nav>
+		</header>
+	</div>
+	<!--</div>-->
+	<div class="full-width-section">
+		<div class="container">
+			<section class="our__friends" id="our__friends">
+				<div class="friends-img">
+					<h2 class="friends-title">Our friends who<br> are looking for a house</h2>
+
+					<!----------------------Pets cards----------------------------------------->
+					<div class="pets-wrapper" aria-label="Toggle navigation">
+						<div class="pets-card">
+							<svg class="pets-svg" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect x="1" y="1" width="50" height="50" rx="25" stroke="#F1CDB3" stroke-width="2"/>
+								<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M27.4262 26L31.7046 21.7216C32.0985 21.3277 32.0985 20.6892 31.7046 20.2954C31.3108 19.9016 30.6723 19.9016 30.2785 20.2954L26 24.5739L21.7215 20.2954C21.3276 19.9015 20.6892 19.9015 20.2953 20.2954C19.9016 20.6892 19.9016 21.3277 20.2953 21.7215L24.5738 26L20.2953 30.2785C19.9016 30.6723 19.9016 31.3108 20.2953 31.7046C20.6892 32.0985 21.3276 32.0985 21.7215 31.7046L26 27.4261L30.2785 31.7046C30.6723 32.0985 31.3108 32.0985 31.7046 31.7046C32.0985 31.3108 32.0985 30.6723 31.7046 30.2785L27.4262 26Z"
+											fill="#292929"/>
+							</svg>
+							<img class="pets-img" src="" alt="">
+							<div class="pets-content">
+								<h3 class="pets-name"></h3>
+								<p class="pets-breed"></p>
+								<p class="about-pets"></p>
+								<ul class="pets-list">
+									<li class="pets-items age"><span></span></li>
+									<li class="pets-items inoculations"><span></span></li>
+									<li class="pets-items diseases"><span></span></li>
+									<li class="pets-items parasites"><span></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-----------------------End Pets cards--------------------------------------->
+
+
+					<div class="cards">
+					</div>
+
+					<div class="pagination">
+						<svg class="interval left-to_end disable" width="52" height="52" viewBox="0 0 52 52" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+							<rect x="1" y="1" width="50" height="50" rx="25" stroke="#CDCDCD" stroke-width="2"/>
+							<path
+								d="M22.9469 31.7852L13.9137 27.0879V25.9844L22.9469 21.2871V22.625L15.4371 26.5312L22.9469 30.4473V31.7852ZM37.018 31.7852L27.9848 27.0879V25.9844L37.018 21.2871V22.625L29.5082 26.5312L37.018 30.4473V31.7852Z"
+								fill="#CDCDCD"/>
+						</svg>
+						<svg class="interval prew disable" width="52" height="52" viewBox="0 0 52 52" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+							<rect x="1" y="1" width="50" height="50" rx="25" stroke="#CDCDCD" stroke-width="2"/>
+							<path
+								d="M29.9824 31.7852L20.9492 27.0879V25.9844L29.9824 21.2871V22.625L22.4727 26.5312L29.9824 30.4473V31.7852Z"
+								fill="#CDCDCD"/>
+						</svg>
+						<button class="interval central">1</button>
+						<svg class="interval next arrow" width="52" height="52" viewBox="0 0 52 52" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+							<rect x="1" y="1" width="50" height="50" rx="25" stroke="#F1CDB3" stroke-width="2"/>
+							<path
+								d="M30.041 27.0879L21.0078 31.7852V30.4473L28.5176 26.5312L21.0078 22.625V21.2871L30.041 25.9844V27.0879Z"
+								fill="#292929"/>
+						</svg>
+						<svg class="interval right-to_end arrow" width="52" height="52" viewBox="0 0 52 52" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+							<rect x="1" y="1" width="50" height="50" rx="25" stroke="#F1CDB3" stroke-width="2"/>
+							<path
+								d="M23.0055 27.0879L13.9723 31.7852V30.4473L21.482 26.5312L13.9723 22.625V21.2871L23.0055 25.9844V27.0879ZM37.0766 27.0879L28.0434 31.7852V30.4473L35.5531 26.5312L28.0434 22.625V21.2871L37.0766 25.9844V27.0879Z"
+								fill="#292929"/>
+						</svg>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="full-width-footer">
+		<div class="container">
+			<footer class="footer" id="footer">
+				<div class="footer-contacts">
+					<h3 class="contacts-title">For questions and suggestions</h3>
+					<a href="mailto:email@shelter.com" target="_blank">
+						<div class="email">
+							<img src="../../assets/logo/icon-email.svg" alt="">
+							<p class="email-address">email@shelter.com</p>
+						</div>
+					</a>
+					<a href="tel:+136745677554" target="_blank">
+						<div class="tel">
+							<img src="../../assets/logo/icon-phone.svg" alt="">
+							<p class="phone">+13 674 567 75 54</p>
+						</div>
+					</a>
+				</div>
+				<div class="footer-location">
+					<h3 class="location-title">We are waiting for your visit</h3>
+					<a href="https://maps.app.goo.gl/wwetzTnMTuvJ8STh6" target="_blank">
+						<div class="locations">
+							<img src="../../assets/logo/icon-location.svg" alt="">
+							<p class="city-locations">1 Central Street, Boston<br>
+								(entrance from the store)</p>
+						</div>
+					</a>
+					<a href="https://maps.app.goo.gl/WNsJBfE4cL8xSfo9A" target="_blank">
+						<div class="locations">
+							<img class="location-icon" src="../../assets/logo/icon-location.svg" alt="">
+							<p class="city-locations second-location">18 South Park,
+								London</p>
+						</div>
+					</a>
+				</div>
+				<img class="footer-img" src="../../assets/images/footer-puppy.png" alt="">
+			</footer>
+		</div>
+	</div>
+</div>
+<script src="../../burgerMenu.js"></script>
+<script src="../../pets-cards.js"></script>
+<script src="pets.js"></script>
+</body>
+</html>
